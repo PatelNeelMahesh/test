@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Certificate of Completion</title>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f8f9fa;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .certificate-container {
+        width: 850px;
+        height: 650px;
+        background-color: #ffffff;
+        border: 1px solid #e0e0e0;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        padding: 60px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .certificate-header {
+        font-size: 56px;
+        font-weight: 300;
+        color: #2c3e50;
+        margin-bottom: 10px;
+        letter-spacing: 3px;
+    }
+
+    .certificate-subheader {
+        font-size: 20px;
+        color: #7f8c8d;
+        font-style: italic;
+        margin-bottom: 40px;
+    }
+
+    .certificate-for {
+        font-size: 18px;
+        color: #555;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 5px;
+    }
+
+    .recipient-name {
+        font-family: 'Cursive', sans-serif; /* Use a web font for a nicer look */
+        font-size: 30px;
+        color: #3498db;
+        margin-bottom: 30px;
+        line-height: 1.2;
+    }
+
+    .certificate-description {
+        font-size: 22px;
+        color: #555;
+        line-height: 1.6;
+        padding: 0 40px;
+    }
+
+    .course-name {
+        font-weight: bold;
+        color: #2c3e50;
+    }
+
+    .signature-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 80px;
+        margin-top: 60px;
+        padding: 0 50px;
+    }
+
+    .signature-item {
+        text-align: center;
+    }
+
+    .signature-line {
+        height: 1px;
+        background-color: #bdc3c7;
+        margin-bottom: 10px;
+    }
+
+    .signature-label {
+        font-size: 14px;
+        color: #7f8c8d;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .certificate-date {
+        position: absolute;
+        bottom: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 16px;
+        color: #95a5a6;
+    }
+
+    /* Optional background elements for added flair */
+    .bg-circle-left {
+        position: absolute;
+        top: -100px;
+        left: -100px;
+        width: 250px;
+        height: 250px;
+        background-color: rgba(52, 152, 219, 0.1);
+        border-radius: 50%;
+    }
+
+    .bg-circle-right {
+        position: absolute;
+        bottom: -100px;
+        right: -100px;
+        width: 250px;
+        height: 250px;
+        background-color: rgba(44, 62, 80, 0.1);
+        border-radius: 50%;
+    }
+</style>
+</head>
+<body>
+
+<div class="certificate-container">
+    <div class="bg-circle-left"></div>
+    <div class="bg-circle-right"></div>
+    
+    <div class="certificate-header">CERTIFICATE</div>
+    <div class="certificate-subheader">OF ACHIEVEMENT</div>
+
+    <div class="certificate-for">AWARDED TO</div>
+    <div class="recipient-name">Sahoo Priyabrata Virendrabhai</div>
+
+    <div class="certificate-description">
+        For successfully completing the <span class="course-name">Python</span>, demonstrating an exceptional understanding of the subject matter and a strong commitment to learning.
+    </div>
+
+    <div class="signature-grid">
+        <div class="signature-item">
+           <i>P.neel</i> <div class="signature-line"></div>
+            <div class="signature-label">Instructor's Signature</div>
+        </div>
+        <div class="signature-item">
+            04-05-2025<div class="signature-line"></div>
+            <div class="signature-label">Date</div>
+        </div>
+    </div>
+
+    <div class="certificate-date">
+        Issued on: [04-05-2025]
+    </div>
+</div>
+
+</body>
+</html>

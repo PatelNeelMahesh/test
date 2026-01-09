@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Certificate of Completion</title>
+<style>
+    body {
+        font-family: 'Georgia', serif;
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .certificate {
+        width: 800px;
+        height: 600px;
+        background-color: #ffffff;
+        border: 20px solid #c0c0c0;
+        padding: 50px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        position: relative;
+    }
+
+    .certificate-ribbon {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #ffd700;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 24px;
+        font-weight: bold;
+        clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%);
+    }
+
+    .certificate-header {
+        font-size: 48px;
+        font-weight: bold;
+        color: #333;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        letter-spacing: 2px;
+    }
+
+    .certificate-subheader {
+        font-size: 24px;
+        color: #666;
+        font-style: italic;
+    }
+
+    .certificate-body {
+        margin-top: 40px;
+    }
+
+    .certificate-text {
+        font-size: 20px;
+        line-height: 1.6;
+        color: #444;
+    }
+
+    .recipient-name {
+        font-size: 40px;
+        font-weight: bold;
+        color: #007bff;
+        margin: 20px 0;
+        font-family: 'Times New Roman', serif;
+    }
+
+    .signature-section {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+
+    .signature-block {
+        text-align: center;
+    }
+
+    .signature-line {
+        width: 200px;
+        height: 2px;
+        background-color: #333;
+        margin-bottom: 5px;
+    }
+
+    .signature-label {
+        font-size: 16px;
+        color: #555;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .certificate-date {
+        margin-top: 20px;
+        font-size: 18px;
+        color: #777;
+    }
+</style>
+</head>
+<body>
+
+<div class="certificate">
+    <div class="certificate-header">
+        CERTIFICATE OF ACHIEVEMENT
+    </div>
+    <div class="certificate-subheader">
+        This certifies that
+    </div>
+    <div class="certificate-body">
+        <div class="recipient-name">
+            Sahoo Priyabrata Virendrabhai
+        </div>
+        <div class="certificate-text">
+            has successfully completed the
+        </div>
+        <div class="certificate-text" style="font-weight: bold;">
+            Html
+        </div>
+        <div class="certificate-text">
+            with outstanding dedication and skill.
+        </div>
+    </div>
+    <div class="signature-section">
+        <div class="signature-block">
+            L.V.S<div class="signature-line"></div>
+            <div class="signature-label">Instructor's Signature</div>
+        </div>
+        <div class="signature-block">
+           S.P <div class="signature-line"></div>
+            <div class="signature-label">Director's Signature</div>
+        </div>
+    </div>
+    <div class="certificate-date">
+        Date: [01-12-2024]
+    </div>
+</div>
+
+</body>
+</html>
